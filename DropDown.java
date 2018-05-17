@@ -10,7 +10,7 @@ public class DropDown {
 		driver.get("https://www.wikipedia.org/");
 
 		//create object of select class
-		Select select = new Select(driver.findElement(By.id(".//*[@id='searchLanguage']")));
+		Select select = new Select(driver.findElement(By.xpath(".//*[@id='searchLanguage']")));
 		select.selectByVisibleText("Esperanto");
 
 	}
