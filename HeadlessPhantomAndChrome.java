@@ -17,7 +17,7 @@ public class HeadlessPhantomAndChrome {
 		  
 		  
 		 */
-
+        //chrome version should be greater than 60
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("--headless");
 		chromeOptions.addArguments("window-size=1400,800");
